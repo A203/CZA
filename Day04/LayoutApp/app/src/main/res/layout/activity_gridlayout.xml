@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:columnCount="4">
+   <Button android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="测试1"
+       android:layout_columnSpan="2"
+       android:layout_gravity="fill_horizontal" />
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试2"/>
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试3"/>
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试4"/>
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowSpan="2"
+        android:layout_gravity="fill_vertical"
+        android:text="测试5"/>
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试6"/>
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试7"/>
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试8"/>
+
+</GridLayout>
+
+
+
+
+
